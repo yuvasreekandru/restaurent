@@ -63,7 +63,7 @@
     left:3%;
 }
 .home-content h1{
-    font-size:3.5rem;
+    font-size:3rem;
     color:yellow;
     margin-bottom:20px;
 }
@@ -272,13 +272,11 @@ textarea{
 .links li{
     list-style: none;
 }
-.subscribe{
-    padding-left: 80px;
-}
 .form{
     display: flex;
     flex-direction: column;
     width:60%;
+    margin-left: 30%;
 }
 #footer-section button{
     width:80%;
