@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font Awesome -->
+  <script src="https://kit.fontawesome.com/fa8731bd30.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="styles.css">
+  <title>Restaurent Website</title>
+</head>
+<body>
+  <header class="container-fluid" id="logo-nav">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#special">Special</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#dishes">Dishes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+</header>
+  <section class="home-section">
+    <div class="home-video container-fluid">
+      <video class="video container-fluid"  muted loop autoplay >
+          <source src="videos/home-video1.mp4" type="video/MP4">
+          <source src="videos/hmv2.webm" type="video/webm" >
+          <source src="videos/hmv1.ogv" type="video/ogv">
+      </video>
+      <div class="video-overlay"></div>
+    </div>
+  </section>
+<!------- home-content -------->
+  <div class="home-content">
+    <h1>Food That You Can't Resist</h1>
+    <h3>Enjoy The Marvelous Taste</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat consequat libero et bibendum.</p>
+    <button class="home-btn">Get Started</button>
+  </div>
+<!------- end home-content -------->
+
+<!-- special-section -->
+<div id="special">
+  <div class="s-heading text-center py-5">
+    <h1>Our <span>Special</span></h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="container">
+  <div class="row sp-row">
+    <div class="img-div col-lg-4 col-md-6">
+      <div class="all-img text-center bg-light p-2">
+        <div class="sp-img ">
+        <img src="images/burger.jpeg" class="img-fluid" alt="burger">
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem et ex vestibulum, ac fermentum justo sodales. Sed volutpat, odio in pretium tincidunt, mauris arcu mattis sem,</p>
+        <button class="sp-btn mb-2">Read More</button>
+      </div>
+    </div>
+    <div class=" img-div col-lg-4 col-md-6 ">
+      <div class="all-img text-center bg-light p-2">
+        <div class="sp-img">
+        <img src="images/fries.jpeg" class="img-fluid" alt="burger">
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem et ex vestibulum, ac fermentum justo sodales. Sed volutpat, odio in pretium tincidunt, mauris arcu mattis sem,</p>
+        <button class="sp-btn mb-2">Read More</button>
+      </div>
+    </div>
+    <div class="img-div col-lg-4 col-md-6 ">
+      <div class="all-img text-center  bg-light p-2">
+        <div class="sp-img">
+        <img src="images/noodles.jpeg" class="img-fluid" alt="burger">
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem et ex vestibulum, ac fermentum justo sodales. Sed volutpat, odio in pretium tincidunt, mauris arcu mattis sem,</p>
+        <button class="sp-btn mb-2">Read More</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- end special-section -->
+<!-- about-section -->
+<div id="about">
+  <div class="about-us text-center py-5">
+    <h1><span>About</span> us</h1>
+  </div>
+    <div class="about-details container  text-center">
+      <div class="row">
+        <div class=" col-lg-6 about-content">
+          <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem et ex vestibulum, ac fermentum justo sodales. Sed volutpat, odio in pretium tincidunt, mauris arcu mattis sem, nec condimentum velit nunc nec nisl. Aliquam ut efficitur mauris. Nullam dignissim tempus turpis, id varius sapien malesuada eu. Proin egestas auctor bibendum. </p>
+          <p class="mb-5"> Proin vestibulum lacinia mi eget cursus. Nunc dolor nisl, fringilla sed finibus nec, aliquet a lectus. Proin ex justo, euismod sit amet gravida in, commodo et mi. Fusce accumsan sit amet mauris ut ultricies. Nulla facilisi. Mauris pretium vehicula semper. Integer vestibulum eget ligula id bibendum.</p>
+          <button class="abt-btn">Learn More</button>
+        </div>
+        <div class=" col-lg-6 about-img pt-2">
+          <img src="images/chef.png" alt="chef-img">
+        </div>
+      </div>
+    </div>
+</div>
+<!-- end about-section -->
+<!-- dishes section -->
+<div id="dishes">  
+  <div class="dishes-heading text-center py-5"> 
+    <h1>Our <span>Dishes</span></h1>
+  </div>
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="dish-img">
+           <img src="images/salad.jpeg" class="img-fluid d-img" alt="burger">
+           <div class="dish-overlay text-center">
+             <h4>Dish 1</h4>
+             <hr>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+             <hr>
+             <button class="home-btn">view More</button>
+           </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="dish-img">
+           <img src="images/fruit.jpeg" class="img-fluid d-img" alt="burger">
+           <div class="dish-overlay text-center">
+             <h4>Dish 2</h4>
+             <hr>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+             <hr>
+             <button class="home-btn">view More</button>
+           </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="dish-img">
+           <img src="images/pasta.jpg" class="img-fluid d-img" alt="burger">
+           <div class="dish-overlay text-center">
+             <h4>Dish 3</h4>
+             <hr>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+             <hr>
+             <button class="home-btn">view More</button>
+           </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="dish-img">
+           <img src="images/juice.jpeg" class="img-fluid d-img" alt="burger">
+           <div class="dish-overlay text-center">
+             <h4>Dish 4</h4>
+             <hr>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+             <hr>
+             <button class="home-btn">view More</button>
+           </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="dish-img">
+           <img src="images/pasta.jpeg" class="img-fluid d-img" alt="burger">
+           <div class="dish-overlay text-center">
+             <h4>Dish 5</h4>
+             <hr>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+             <hr>
+             <button class="home-btn">view More</button>
+           </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="dish-img">
+           <img src="images/noodles.jpeg" class="img-fluid d-img" alt="burger">
+           <div class="dish-overlay text-center">
+             <h4>Dish 6</h4>
+             <hr>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+             <hr>
+             <button class="home-btn">view More</button>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- end dishes section -->
+<!-- contact section -->
+<div id="contact">
+  <div class="contact-sec text-center p-5">
+    <h1><span>Contact </span> Us</h1>
+    <div id="contact-info" class="col-lg-6">
+      <div class="contact-form ">
+        <input type="text" class="m-2" placeholder="Full Name">
+        <input type="text" class="m-2" placeholder="Email">
+        <textarea name="" id="" cols="20" rows="5" class="m-2" placeholder="Message"></textarea>
+        <button class="contact-btn">Send</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end contact section -->
+<!-- footer -->
+<footer id="footer-section">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6">
+      <div class="icons text-center">
+        <h4>Logo</h4>
+        <span><i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+        <span><i class="fa fa-twitter-square" aria-hidden="true"></i></span>
+        <span><i class="fa fa-pinterest-square" aria-hidden="true"></i></span>
+        <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+      </div>
+    </div>
+    
+    <div class="col-lg-4 col-md-6">
+      <div class="links text-center">
+        <h4>Links</h4>
+        <li><a href="">Home</a></li>
+        <li><a href="">Special</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Dish</a></li>
+        <li><a href="">contact</a></li>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="subscribe">
+        <h4>NewsLetter</h4>
+        <div class="form text-center">
+          <input type="text">
+          <button class="home-btn">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+<!-- end footer -->
+ 
+
+  <script src="main.js"></script>
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+</body>
+</html>
